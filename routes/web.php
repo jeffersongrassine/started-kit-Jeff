@@ -38,9 +38,9 @@ Route::get(
     '/home',
     function () {
         return Inertia::render(
-            'Home',
+            'Home/Index',
             [
-                'title' => 'Homepage',
+                'title' => 'Home',
             ]
         );
     }
